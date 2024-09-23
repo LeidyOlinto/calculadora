@@ -15,6 +15,13 @@ body {
   padding: 20px;
   text-align: center;
 }
+#display {
+  width: 50%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 24px;
+  text-align: right;
+}
 .buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
