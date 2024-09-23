@@ -5,5 +5,36 @@ body {
    height: 100vh;
    margin: 0;
    font-family: Arial, sans-serif;
-   background-color: #f0f0f0;
+   background-color: #9b52e09b;
  }
+ .calculator {
+  width: 300px;
+  background-color: #f8ebf7ce;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+button:active {
+  transform: scale(0.95);
+}
